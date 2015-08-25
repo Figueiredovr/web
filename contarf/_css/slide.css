@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+figure.slide {
+	position: relative;
+	border: 8px solid white;
+	box-shadow: 1px 1px 4px black;
+	margin: 30px auto 30px auto;
+	width: 800px;
+	height: 300px;
+}
+
+
+figure.slide figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: rgba(255, 255, 255, .9);
+    text-shadow:1px 1px 1px (0,0,0,.5);
+    font-size: 15pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 800px;
+    height: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity .5s;
+}
+
+figure.slide:hover figcaption {
+    opacity: 1;
+}

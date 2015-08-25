@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+section#contato {
+
+}
+
+section#contato h1 {
+	font-size: 22pt;
+	margin-bottom: 0px;
+
+}
+
+section#contato h2 {
+	font-size: 13pt;
+	font-weight: normal;
+}
+
+section#contato h3 {
+	font-size: 12pt;
+	color: #888888;
+	margin: 0px;	 
+	
+}
+
+section#contato img {
+	display: block;
+	float: left;
+	margin: 10px;
+}
+
+table#principal {
+	margin-bottom: 0px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table#info {
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+table#info td {
+	padding: 0px;
+	margin: 0px;
+}
+
+table#info tr {
+	padding: 0px;
+	margin: 0px;
+}
