@@ -1,0 +1,38 @@
+#s1
+{
+	background-image: url(../_images/5.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+
+		
+}
+#s2
+{
+	
+	background-image: url(../_images/6.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+
+}
+
+#s3
+{
+	background-image: url(../_images/1.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+section 
+{ 
+	height: 100vh;
+}
+
+#caixa {
+	width: 40%;
+	height: 50%;
+	position: center right;	
+	
+}
